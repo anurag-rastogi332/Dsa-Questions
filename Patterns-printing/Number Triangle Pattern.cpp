@@ -1,0 +1,79 @@
+
+#include<iostream>
+using namespace std;
+
+
+/*
+
+Example
+For an input n = 5, the printed output should be:
+
+
+1
+22
+333
+4444
+55555
+The first row contains the number 1, repeated once.
+The second row contains the number 2, repeated twice, and so on, up to row n.
+Example 1:
+
+Input:
+
+n=1
+
+Output:
+
+1
+Explanation:A single row with 1.
+
+Example 2:
+
+Input:
+
+n=2
+
+Output:
+
+1
+22
+Explanation:A triangle with two rows.
+
+Example 3:
+
+Input:
+
+n=3
+
+Output:
+
+1
+22
+333
+Explanation:A triangle with three rows.
+
+*/
+
+
+
+
+
+
+
+class Solution {
+public:
+    void printNumberTriangle(int n) {
+        // Implement the pattern printing logic here
+        for (int i = 1; i <= n; i++)
+ {
+     for (int j  = 1; j <= i; j++)
+     {
+        cout<<i;
+        /* code */
+     }
+     cout<<endl;
+     
+ }
+ 
+    }
+};
