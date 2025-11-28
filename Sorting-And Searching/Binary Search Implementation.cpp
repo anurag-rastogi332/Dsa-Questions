@@ -1,7 +1,5 @@
 
-
 /*
-
 Example 1:
 Input: arr = [-1, 0, 3, 5, 9, 12], target = 9
 Output: 4
@@ -49,6 +47,7 @@ Explanation:
 */
 
 #include <bits/stdc++.h>
+#include<vector>
 using namespace std;
 
 int binarySearch(vector<int> &arr, int target)
