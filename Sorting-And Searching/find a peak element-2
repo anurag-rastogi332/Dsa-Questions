@@ -36,8 +36,8 @@ Explanation: Both 30 and 32 are peak elements so [1,1] and [2,2] are both accept
 
 */
 
-class Solution
-{
+
+class Solution{
 public:
     int findMaxIndex(vector<vector<int>> &mat, int n, int m, int j)
     {
