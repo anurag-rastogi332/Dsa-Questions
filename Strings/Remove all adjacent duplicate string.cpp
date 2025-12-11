@@ -1,6 +1,8 @@
 #include <iostream>
 using namespace std;
 
+    //leet code 1047
+
 /*
 
 Example 1:
