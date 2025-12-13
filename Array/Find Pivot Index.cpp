@@ -85,3 +85,37 @@ public:
         return bruteforce(nums);
     }
 };
+
+// uper bale ki time complexity o(n2) hai jo ki jaida time legi ab hum new code likhnge jisme time complexity o(n) hogi
+
+class PivotIndex
+{
+public:
+    int pivotIndex(vector<int> &arr)
+    {
+        int totalSum = 0;
+
+        // Step 1: calculate total sum
+        for (int x : arr)
+            totalSum += x;
+
+        int leftSum = 0;
+
+        // Step 2: check pivot index
+        for (int i = 0; i < arr.size(); i++)
+        {
+            int rightSum = totalSum - leftSum - arr[i];
+
+            if (leftSum == rightSum)
+                return i;
+
+            leftSum += arr[i];
+        }
+
+        return -1;
+    }
+};
+
+// iski time complexity o(n) hai
+//  int rightSum = totalSum - leftSum - arr[i]; formula to find right sum
+// isse formule se  humara right sum nikalne ka loop bach gaya jisse humari time compelxtiy kam ho gayi
