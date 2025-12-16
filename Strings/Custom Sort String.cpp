@@ -25,7 +25,6 @@ Explanation: The characters "b", "c", and "a" from order dictate the order for t
 Following the order of appearance in order, "b", "c", and "a" from s should be arranged as "b", "c", "a". "d" can be placed at any position since it's not in order. The output "bcad" correctly follows this rule. Other arrangements like "dbca" or "bcda" would also be valid, as long as "b", "c", "a" maintain their order.
 
 
-
 Constraints:
 
 1 <= order.length <= 26
