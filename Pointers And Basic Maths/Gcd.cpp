@@ -14,6 +14,7 @@ Explanation: GCD of 60 and 36 is 12
 
 */
 
+
 // this code submited in gfg without time limit exceed
 
 class Solution

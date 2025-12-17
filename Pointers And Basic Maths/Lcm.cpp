@@ -5,6 +5,7 @@ using namespace std;
 
 Given two numbers a and b. The task is to find out their LCM.
 
+
 Examples:
 
 Input: a = 5, b = 10
