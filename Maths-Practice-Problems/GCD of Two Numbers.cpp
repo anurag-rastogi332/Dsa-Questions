@@ -65,14 +65,20 @@ Explanation:GCD of 15 and 20 is 5.
 
 */
 
-class Solution {
+class Solution
+{
 public:
-  int findGCD(int a, int b) {
+  int findGCD(int a, int b)
+  {
     // Implement logic to find GCD of a and b
-    while (a != b) {
-      if (a > b) {
+    while (a != b)
+    {
+      if (a > b)
+      {
         a = a - b;
-      } else {
+      }
+      else
+      {
         b = b - a;
       }
     }
