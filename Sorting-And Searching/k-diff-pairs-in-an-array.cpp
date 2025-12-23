@@ -169,3 +169,65 @@ If found, store the pair (nums[i], nums[i]+k) in a set to avoid duplicates.
 Return the size of the set.
 
 */
+
+// important note->  agar ka negative ho to approach
+
+#include <set>
+class Solution
+{
+public:
+    int findPairs(vector<int> &nums, int k)
+    {
+        sort(nums.begin(), nums.end());
+        set<pair<int, int>> ans;
+        k = abs(k);
+        int i = 0, j = 1;
+
+        while (i < nums.size() && j < nums.size())
+        {
+            int diff = nums[j] - nums[i];
+
+            if (diff == k)
+            {
+                ans.insert({nums[i], nums[j]});
+                i++;
+                j++;
+            }
+            else if (diff > k)
+            {
+                i++;
+            }
+            else
+            {
+                j++;
+            }
+
+            if (i == j)
+                j++;
+        }
+        return ans.size();
+    }
+};
+
+/*
+
+🧠 Yaad rakhne ka GOLDEN NOTE (abs(k) kyu lagaya)
+👉 Reason (1 line)
+
+Array sort karne ke baad nums[j] - nums[i] kabhi negative nahi hota,
+isliye agar k negative ho to compare karne ke liye abs(k) lagana padta hai.
+
+📌 Mini Example (dimag me chipak jaaye)
+nums = [1,2,3,4,5]
+k = -1
+
+
+Sorted array me:
+
+nums[j] - nums[i] = 1, 1, 1, 1   (kabhi -1 nahi aayega)
+
+
+❌ 1 == -1 → kabhi true nahi
+✅ abs(-1) = 1 → 1 == 1 → pairs milte hain
+
+*/
