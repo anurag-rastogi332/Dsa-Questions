@@ -1,5 +1,4 @@
-//platform:-codehelp
-//platform link:-https://www.codehelp.in/dashboard/courses/dsa-red/assignment-1/average-of-three-integers/description
+
 
 class Solution {
 public:

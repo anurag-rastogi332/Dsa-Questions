@@ -1,5 +1,4 @@
-//platform:-code help
-//platform link:-https://www.codehelp.in/dashboard/courses/dsa-red/assignment-1/voting-eligibility-checker/description
+
 
 class Solution {
 public:

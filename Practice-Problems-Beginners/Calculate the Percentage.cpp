@@ -1,5 +1,4 @@
-//platform:-codehelp
-//platform-link:-https://www.codehelp.in/dashboard/courses/dsa-red/assignment-1/calculate-the-percentage/description
+
 
 class Solution {
 public:

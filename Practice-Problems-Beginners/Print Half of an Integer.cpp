@@ -1,6 +1,5 @@
 
-//platform:-codehelp
-//platform link:-https://www.codehelp.in/dashboard/courses/dsa-red/assignment-1/print-half-of-an-integer/description
+
 
 class Solution {
 public:

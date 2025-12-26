@@ -1,6 +1,5 @@
 
-//platform:-codehelp
-//platform link:-https://www.codehelp.in/dashboard/courses/dsa-red/assignment-1/sum-of-two-integers/description
+
 
 class Solution {
 public:

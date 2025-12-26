@@ -1,5 +1,4 @@
-//platforn:-codehelp
-//platform link:-https://www.codehelp.in/dashboard/courses/dsa-red/assignment-1/calculate-the-area-of-a-rectangle/description
+
 
 
 
