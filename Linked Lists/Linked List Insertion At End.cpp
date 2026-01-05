@@ -1,6 +1,7 @@
 #include <iostream>
 using namespace std;
 
+
 /*
 
 Input: x = 6,
