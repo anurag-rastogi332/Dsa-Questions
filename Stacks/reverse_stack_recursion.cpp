@@ -5,6 +5,7 @@
 #include<stack>
 using namespace std;
 
+
 void insertAtBottom(stack<int> &s, int value) {
 	//base case
 	if(s.empty()) {
