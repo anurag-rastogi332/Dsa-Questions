@@ -4,6 +4,7 @@ using namespace std;
 
 /*
 
+
 You are given a stack of integers that is sorted in ascending order, with the smallest element at the top. Your task is to write a function that inserts a given integer x into the stack while maintaining its sorted order.
 
 There is a critical constraint: you are not allowed to use any loops (like for or while). You must solve this problem using only the standard stack operations (push, pop, peek, isEmpty) and recursion.
