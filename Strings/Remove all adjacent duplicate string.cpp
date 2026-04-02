@@ -5,7 +5,6 @@ using namespace std;
 
 /*
 
-
 Example 1:
 
 Input: s = "abbaca"
