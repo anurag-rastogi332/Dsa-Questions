@@ -53,6 +53,7 @@ public:
             }
         }
     }
+    
     string useMapping(unordered_map<char, char> &mapping, string message)
     {
         string s = "";
