@@ -3,7 +3,6 @@
 using namespace std;
 
 /*
-
 Given a string s, determine if it is valid.
 
 A string s is valid if, starting with an empty string t = "", you can transform t into s after performing the following operation any number of times:
