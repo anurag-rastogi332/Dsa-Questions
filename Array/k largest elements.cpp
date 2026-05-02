@@ -1,6 +1,7 @@
 #include <iostream>
 #include <vector>
 #include <algorithm>
+#include <queue>
 using namespace std;
 
 /*  gfg-> https://www.geeksforgeeks.org/problems/k-largest-elements4206/1
@@ -34,5 +35,26 @@ public:
             ans.push_back(arr[i]);
         }
         return ans;
+    }
+};
+
+// 2nd approach ->using max heap
+
+class Solution
+{
+public:
+    int findKthLargest(vector<int> &nums, int k)
+    {
+        priority_queue<int> pq;
+        for (int num : nums)
+        {
+            pq.push(num);
+        }
+        while (k > 1)
+        {
+            pq.pop();
+            k--;
+        }
+        return pq.top();
     }
 };

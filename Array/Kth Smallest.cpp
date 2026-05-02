@@ -2,6 +2,7 @@
 #include <iostream>
 #include <vector>
 #include <algorithm>
+#include <queue>
 using namespace std;
 
 // gfg->  https://www.geeksforgeeks.org/problems/kth-smallest-element5635/1
@@ -28,5 +29,27 @@ public:
         sort(arr.begin(), arr.end());
 
         return arr[k - 1];
+    }
+};
+
+// 2nd approach -> using min heap
+
+class Solution
+{
+public:
+    int kthSmallest(vector<int> &nums, int k)
+    {
+
+        priority_queue<int, vector<int>, greater<int>> pq;
+        for (int num : nums)
+        {
+            pq.push(num);
+        }
+        while (k > 1)
+        {
+            pq.pop();
+            k--;
+        }
+        return pq.top();
     }
 };
