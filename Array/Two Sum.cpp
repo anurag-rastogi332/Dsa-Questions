@@ -1,7 +1,8 @@
 
 
-#include<iostream>
-#include<vector>
+#include <iostream>
+#include <vector>
+#include <unordered_map>
 using namespace std;
 
 /*
@@ -43,24 +44,50 @@ Explanation:3 + 3 = 6, so the pair is 0 and 1
 
 */
 
-
-
-class Solution {
+class Solution
+{
 public:
-  vector<int> twoSum(vector<int> &nums, int target) {
+  vector<int> twoSum(vector<int> &nums, int target)
+  {
     // Your logic will go here.
     int n = nums.size();
 
-    for (int i = 0; i < n; i++) {
-      for (int j = i + 1; j < n; j++) {
+    for (int i = 0; i < n; i++)
+    {
+      for (int j = i + 1; j < n; j++)
+      {
         int first = nums[i];
         int second = nums[j];
         int sum = first + second;
 
-        if (sum == target) {
+        if (sum == target)
+        {
           return {i, j};
         }
       }
+    }
+
+    return {};
+  }
+};
+
+class Solution
+{
+public:
+  vector<int> twoSum(vector<int> &nums, int target)
+  {
+    unordered_map<int, int> mp;
+
+    for (int i = 0; i < nums.size(); i++)
+    {
+      int complement = target - nums[i];
+
+      if (mp.count(complement))
+      {
+        return {mp[complement], i};
+      }
+
+      mp[nums[i]] = i;
     }
 
     return {};
