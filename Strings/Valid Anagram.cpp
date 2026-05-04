@@ -1,9 +1,8 @@
-
+#include <iostream>
+#include <algorithm>
+using namespace std;
 
 //  method-1
-
-#include <iostream>
-using namespace std;
 
 /*
 
@@ -100,5 +99,18 @@ public:
         // agar main yaha agya
         // iska mtlb kahin pr bhi 0 nhi mila array  me
         return true;
+    }
+};
+
+// using sorting
+
+class Solution
+{
+public:
+    bool isAnagram(string s, string t)
+    {
+        sort(s.begin(), s.end());
+        sort(t.begin(), t.end());
+        return t == s;
     }
 };
