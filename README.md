@@ -217,7 +217,7 @@ Contributions are welcome if they keep the repository organized and useful for r
 
 | Platform | Link |
 | --- | --- |
-| LinkedIn | https://www.linkedin.com/in/your-linkedin |
-| LeetCode | https://leetcode.com/your-leetcode |
-| GitHub | https://github.com/your-github |
+| LinkedIn | https://www.linkedin.com/in/anurag-rastogi-299844342/ |
+| LeetCode | https://leetcode.com/u/Anurag_332/ |
+| GitHub | https://github.com/anurag-rastogi332 |
 | Portfolio | https://your-portfolio.com |
