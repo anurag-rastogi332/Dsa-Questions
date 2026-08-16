@@ -201,6 +201,7 @@ g++ -std=c++17 -O2 -Wall -Wextra "Array\Find Pivot Index.cpp" -o solution.exe
 .\solution.exe
 ```
 
+
 ## Contribution Guide
 
 This repository is primarily for personal learning, but suggestions and improvements are welcome.
