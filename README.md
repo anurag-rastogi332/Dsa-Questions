@@ -1,7 +1,7 @@
 # DSA Questions in C++
 
 <p align="left">
-  <strong>One place for C++ DSA practice, interview prep, and daily repetition.</strong>
+  <strong>Topic-wise C++ practice repository for building strong DSA fundamentals through consistent solving and revision.</strong>
 </p>
 
 <p align="left">
@@ -17,175 +17,184 @@
   <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=c%2B%2B&logoColor=white" alt="C++">
 </p>
 
-> A personal DSA notebook in code form, built to make interview prep feel structured instead of scattered.
+## About This Repository
 
-## About
+This repository contains my Data Structures and Algorithms practice in C++.
 
-I use this repository to keep my DSA practice organized while I prepare for software engineering interviews.
+I use it as a structured learning notebook to:
 
-It exists for a simple reason: I wanted one place where I could revisit core patterns, compare approaches, and keep my revision honest. Instead of solving problems in isolation, I grouped them by topic so I can build momentum across arrays, strings, linked lists, recursion, stacks, queues, trees, heaps, and search patterns.
+- Practice problems topic by topic.
+- Revise old patterns regularly.
+- Track my progress over time.
+- Build stronger problem-solving habits for interviews and development work.
 
-This is not a polished framework or a teaching project. It is a working practice repository that reflects a real interview-prep journey in C++.
+It is a genuine learning repository, not a finished library or framework.
+
+## My DSA Journey
+
+My journey in this repository has progressed in stages:
+
+1. Started with beginner programming and logic practice:
+   - Pattern printing
+   - Basic mathematics
+   - Pointers
+   - C++ STL basics
+2. Moved into core DSA foundations:
+   - Arrays
+   - Strings
+   - Searching
+   - Sorting
+   - Linked Lists
+   - Stacks
+   - Queues
+3. Practiced recursion-heavy thinking:
+   - Recursion
+   - Backtracking
+   - Divide and Conquer
+4. Continued with tree-based and advanced structures:
+   - Trees
+   - Binary Search Trees
+   - Heaps
+   - Maps
+   - Tries
+5. Current focus:
+   - Dynamic Programming
 
 ## Repository Highlights
 
+All values below are based on the current repository snapshot.
+
 | Highlight | Value |
 | --- | --- |
-| Solutions | 331 |
-| Topics | 21 active topic folders |
-| Focus | Interview-oriented DSA practice |
 | Language | C++ |
-| Style | Clean, standalone implementations |
-| Audience | Beginner-friendly revision and interview prep |
-| Updates | Actively maintained in this workspace snapshot |
+| C++ solution files | 341 |
+| Total files in repository | 346 |
+| Top-level topic folders | 25 |
+| Active topic folders (with .cpp files) | 21 |
+| Empty topic folders (currently no .cpp files) | 4 |
+| Default branch | main |
+| Total commits | 211 |
+| Latest commit observed | 75bb2f0 (2026-08-13) |
 
 ## Topics Covered
 
-The table below includes only the folders that currently contain source files.
+The table below lists folders that currently contain C++ source files.
 
-| Topic | Files | Focus |
-| --- | ---:| --- |
-| Array | 50 | prefix sum, subarrays, rotations, duplicates, matrix traversal, frequency problems |
-| BST | 12 | construction, deletion, views, traversal, node counting |
-| C++ STL | 1 | STL basics |
-| Comparison-Based Sorting Techniques | 3 | bubble sort, insertion sort, selection sort |
-| Daily_Questions | 1 | daily practice and quick problem solving |
-| Heap | 9 | heap operations, median stream, merge problems, smallest range |
-| implementation-codes | 1 | linked-list implementation basics |
-| LeetCode-Contest | 9 | contest-style practice |
-| Linked Lists | 27 | insertion, reversal, cycle detection, partitioning, palindrome checks |
-| Maps n Tries | 1 | map and trie basics |
-| Maths-Practice-Problems | 23 | number theory, digit logic, bit tricks, arithmetic |
-| OOPs Concept | 1 | object-oriented programming basics |
-| Patterns-printing | 31 | pattern generation exercises |
-| Pointers And Basic Maths | 3 | gcd, lcm, prime counting |
-| Practice-Problems-Beginners | 21 | entry-level logic, arithmetic, and control-flow problems |
-| Queue | 16 | queue manipulation, sliding window, interleaving, stream problems |
-| Recursion | 19 | recursion on arrays, strings, numbers, subsequences, and search helpers |
-| Sorting-And Searching | 32 | binary search variants, rotated arrays, peaks, bounds, search problems |
-| Stacks | 18 | stack implementation, monotonic stack patterns, parentheses, expressions |
-| Strings | 31 | palindrome, anagram, decoding, compression, substring search |
-| Trees | 22 | traversals, path sums, depth, diameter, LCA, construction, views |
+| Topic Folder | .cpp Files |
+| --- | ---: |
+| Array | 50 |
+| BST | 13 |
+| BT And DnC | 1 |
+| C++ STL | 1 |
+| Comparison-Based Sorting Techniques | 3 |
+| Daily_Questions | 1 |
+| Heap | 9 |
+| implementation-codes | 1 |
+| LeetCode-Contest | 9 |
+| Linked Lists | 27 |
+| Maps n Tries | 1 |
+| Maths-Practice-Problems | 23 |
+| OOPs Concept | 1 |
+| Patterns-printing | 31 |
+| Pointers And Basic Maths | 3 |
+| Practice-Problems-Beginners | 21 |
+| Queue | 16 |
+| Recursion | 26 |
+| Sorting-And Searching | 32 |
+| Stacks | 19 |
+| Strings | 31 |
+| Trees | 22 |
 
 ## Repository Structure
 
-Generated from the current workspace snapshot.
-
 ```text
 Dsa All Questions/
-├── Array/ (50)
-├── BST/ (12)
-├── BT And DnC/ (empty)
-├── Bit Manipulation Session/ (empty)
-├── C++ STL/ (1)
-├── Comparison-Based Sorting Techniques/ (3)
-├── Daily_Questions/ (1)
-├── Greedy Algorithm Session/ (empty)
-├── Heap/ (9)
-├── implementation-codes/ (1)
-├── LeetCode-Contest/ (9)
-├── Linked Lists/ (27)
-├── Maps n Tries/ (1)
-├── Maths-Practice-Problems/ (23)
-├── OOPs Concept/ (1)
-├── Patterns-printing/ (31)
-├── Pointers And Basic Maths/ (3)
-├── Practice-Problems-Beginners/ (21)
-├── Queue/ (16)
-├── Recursion/ (19)
-├── Sliding Window Session/ (empty)
-├── Sorting-And Searching/ (32)
-├── Stacks/ (18)
-├── Strings/ (31)
-└── Trees/ (22)
+├── Array/ (50 .cpp)
+├── Bit Manipulation Session/ (0 .cpp)
+├── BST/ (13 .cpp)
+├── BT And DnC/ (1 .cpp)
+├── C++ STL/ (1 .cpp)
+├── Comparison-Based Sorting Techniques/ (3 .cpp)
+├── Daily_Questions/ (1 .cpp)
+├── Greedy Algorithm Session/ (0 .cpp)
+├── Heap/ (9 .cpp)
+├── implementation-codes/ (1 .cpp)
+├── LeetCode-Contest/ (9 .cpp)
+├── Linked Lists/ (27 .cpp)
+├── Maps n Tries/ (1 .cpp)
+├── Maths-Practice-Problems/ (23 .cpp)
+├── OOPs Concept/ (1 .cpp)
+├── Patterns-printing/ (31 .cpp)
+├── Pointers And Basic Maths/ (3 .cpp)
+├── Practice-Problems-Beginners/ (21 .cpp)
+├── Queue/ (16 .cpp)
+├── Recursion/ (26 .cpp)
+├── Sliding Window Session/ (0 .cpp)
+├── Sorting-And Searching/ (32 .cpp)
+├── Stacks/ (19 .cpp)
+├── Strings/ (31 .cpp)
+└── Trees/ (22 .cpp)
 ```
 
 ## Learning Roadmap
 
-The best way to study this repository is to move from simpler patterns to more layered ones.
+- [x] Beginner logic, patterns, basic math, pointers, STL
+- [x] Arrays, Strings, Searching, Sorting
+- [x] Linked Lists, Stacks, Queues
+- [x] Recursion foundations
+- [x] Trees, BST, Heap, Maps/Tries
+- [ ] Dynamic Programming mastery (in progress)
 
-```text
-Beginner
-↓
-Practice-Problems-Beginners
-↓
-Array
-↓
-Strings
-↓
-Linked Lists
-↓
-Stacks
-↓
-Queue
-↓
-Recursion
-↓
-Sorting-And Searching
-↓
-Heap
-↓
-Trees
-↓
-BST
-↓
-Maps n Tries
-↓
-Maths-Practice-Problems
-↓
-Patterns-printing
-↓
-LeetCode-Contest
-↓
-Future expansion: Graphs, Dynamic Programming
-```
+## Problem-Solving Approach
 
-If you are revising for interviews, I would study the repository in passes:
+My current Dynamic Programming learning flow:
 
-1. First pass: focus on easy implementation and logic problems.
-2. Second pass: revisit arrays, strings, stacks, and queues until the patterns feel automatic.
-3. Third pass: move into recursion, searching, heaps, and trees.
-4. Final pass: use contest and mixed-topic problems to test speed and accuracy.
+1. Start with recursion.
+2. Understand the recursion tree.
+3. Identify repeated subproblems.
+4. Apply memoization.
+5. Convert to tabulation.
+6. Optimize space where possible.
 
-## Features
+I also keep revising old topics while solving newer ones.
 
-- Topic-wise C++ solutions.
-- Interview-focused problem selection.
-- Beginner-friendly progression.
-- Multiple versions for some problems.
-- Clean, single-purpose source files.
-- Good for revision before technical interviews.
+## How I Use This Repository for Revision
 
-## Why This Repository
+For each important problem, I review and note:
 
-Recruiters and interviewers care less about how many problems you have solved and more about whether you can recognize patterns quickly and write reliable code under pressure.
+- Core thinking
+- Problem pattern
+- Important observations
+- Dry runs
+- Base cases (where applicable)
+- Time complexity
+- Space complexity
+- Common mistakes
 
-This repository is useful because it shows consistent DSA practice, organized thinking, and a clear focus on interview preparation. For students, it works as a revision map. For interview candidates, it works as a quick pattern reference. For recruiters, it shows disciplined problem-solving in C++.
+This helps me retain approaches instead of memorizing code.
 
-> The value is not just in the solutions. It is in the repetition, the structure, and the habit of returning to fundamentals.
+## Current Focus
 
-## Repository Statistics
+I am currently focused on Dynamic Programming.
 
-All values below are taken from the current workspace snapshot.
+The repository already includes some DP-oriented problems (for example, House Robber, Coin Change 2, Partition Equal Subset Sum, and Jump Game), mainly under the Recursion workflow while I transition from recursive thinking to full DP optimization patterns.
 
-| Metric | Value |
-| --- | --- |
-| Source files | 331 |
-| Active topic folders | 21 |
-| Empty topic folders | 4 |
-| Total commits | 204 |
-| Default branch | `main` |
-| Latest commit | `47aaff8` on `2026-07-22` |
+## Future Goals
+
+- Continue strengthening Dynamic Programming problem-solving depth.
+- Expand structured practice in currently sparse/empty topic folders.
+- Add concise complexity and approach notes for more problems.
+- Keep improving revision quality and consistency.
 
 ## How to Use
 
-1. Open the folder for the topic you want to revise.
-2. Read the problem file and identify the pattern being used.
-3. Compile the file locally.
-4. Re-solve the same problem without looking at the code.
-5. Compare alternate approaches when multiple versions exist.
+1. Open any topic folder.
+2. Pick a problem and solve it first on your own.
+3. Compare your solution with the repository implementation.
+4. Re-implement without looking to build recall.
+5. Track patterns, edge cases, and complexity notes.
 
-Example on Windows PowerShell:
+Example compile command (Windows PowerShell):
 
 ```powershell
 g++ -std=c++17 -O2 -Wall -Wextra "Array\Find Pivot Index.cpp" -o solution.exe
@@ -194,24 +203,12 @@ g++ -std=c++17 -O2 -Wall -Wextra "Array\Find Pivot Index.cpp" -o solution.exe
 
 ## Contribution Guide
 
-Contributions are welcome if they keep the repository organized and useful for revision.
+This repository is primarily for personal learning, but suggestions and improvements are welcome.
 
-- Keep one problem per file when possible.
-- Match the existing folder naming style.
-- Prefer clear, readable C++ over clever but hard-to-review code.
-- Add a new solution only when it improves coverage or adds a meaningful alternate approach.
-- Keep filenames descriptive and consistent.
-- Avoid adding unrelated experiments inside topic folders.
-
-## Future Goals
-
-- Solve 500+ problems.
-- Add time complexity notes.
-- Add space complexity notes.
-- Add approach explanations for more files.
-- Complete Graphs.
-- Complete Dynamic Programming.
-- Improve documentation across the repository.
+- Keep folder names and existing structure unchanged.
+- Prefer one problem per file where possible.
+- Prioritize clarity and correctness over clever shortcuts.
+- Keep changes focused and easy to review.
 
 ## Connect With Me
 
@@ -220,4 +217,3 @@ Contributions are welcome if they keep the repository organized and useful for r
 | LinkedIn | https://www.linkedin.com/in/anurag-rastogi-299844342/ |
 | LeetCode | https://leetcode.com/u/Anurag_332/ |
 | GitHub | https://github.com/anurag-rastogi332 |
-| Portfolio | https://your-portfolio.com |
