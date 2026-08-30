@@ -2,7 +2,6 @@
 #include<vector>
 using namespace std;
 
-
 /*
 
 Example 1:
