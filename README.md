@@ -67,14 +67,14 @@ All values below are based on the current repository snapshot.
 | Highlight | Value |
 | --- | --- |
 | Language | C++ |
-| C++ solution files | 341 |
-| Total files in repository | 346 |
-| Top-level topic folders | 25 |
-| Active topic folders (with .cpp files) | 21 |
+| C++ solution files | 385 |
+| Total files in repository | 392 |
+| Top-level topic folders | 27 |
+| Active topic folders (with .cpp files) | 23 |
 | Empty topic folders (currently no .cpp files) | 4 |
 | Default branch | main |
-| Total commits | 211 |
-| Latest commit observed | 75bb2f0 (2026-08-13) |
+| Total commits | 236 |
+| Latest commit observed | e2d03e8 (2026-10-03) |
 
 ## Topics Covered
 
@@ -88,18 +88,19 @@ The table below lists folders that currently contain C++ source files.
 | C++ STL | 1 |
 | Comparison-Based Sorting Techniques | 3 |
 | Daily_Questions | 1 |
-| Heap | 9 |
+| DP L1 | 28 |
+| Heap | 10 |
 | implementation-codes | 1 |
 | LeetCode-Contest | 9 |
-| Linked Lists | 27 |
+| Linked Lists | 28 |
 | Maps n Tries | 1 |
 | Maths-Practice-Problems | 23 |
-| OOPs Concept | 1 |
+| OOPs Concept | 2 |
 | Patterns-printing | 31 |
 | Pointers And Basic Maths | 3 |
 | Practice-Problems-Beginners | 21 |
 | Queue | 16 |
-| Recursion | 26 |
+| Recursion | 39 |
 | Sorting-And Searching | 32 |
 | Stacks | 19 |
 | Strings | 31 |
@@ -116,19 +117,20 @@ Dsa All Questions/
 ├── C++ STL/ (1 .cpp)
 ├── Comparison-Based Sorting Techniques/ (3 .cpp)
 ├── Daily_Questions/ (1 .cpp)
+├── DP L1/ (28 .cpp)
 ├── Greedy Algorithm Session/ (0 .cpp)
-├── Heap/ (9 .cpp)
+├── Heap/ (10 .cpp)
 ├── implementation-codes/ (1 .cpp)
 ├── LeetCode-Contest/ (9 .cpp)
-├── Linked Lists/ (27 .cpp)
+├── Linked Lists/ (28 .cpp)
 ├── Maps n Tries/ (1 .cpp)
 ├── Maths-Practice-Problems/ (23 .cpp)
-├── OOPs Concept/ (1 .cpp)
+├── OOPs Concept/ (2 .cpp)
 ├── Patterns-printing/ (31 .cpp)
 ├── Pointers And Basic Maths/ (3 .cpp)
 ├── Practice-Problems-Beginners/ (21 .cpp)
 ├── Queue/ (16 .cpp)
-├── Recursion/ (26 .cpp)
+├── Recursion/ (39 .cpp)
 ├── Sliding Window Session/ (0 .cpp)
 ├── Sorting-And Searching/ (32 .cpp)
 ├── Stacks/ (19 .cpp)
@@ -177,7 +179,7 @@ This helps me retain approaches instead of memorizing code.
 
 I am currently focused on Dynamic Programming.
 
-The repository already includes some DP-oriented problems (for example, House Robber, Coin Change 2, Partition Equal Subset Sum, and Jump Game), mainly under the Recursion workflow while I transition from recursive thinking to full DP optimization patterns.
+The repository now has a dedicated `DP L1` folder with problems such as House Robber, Coin Change, Partition Equal Subset Sum, Longest Common Subsequence, and Stone Game. I am continuing to transition from recursive thinking to full DP optimization patterns.
 
 ## Future Goals
 
